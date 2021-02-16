@@ -14,7 +14,7 @@ export default class Footer extends Component {
             <ul>
               <li>
                 <a href="https://www.facebook.com/ezz.dee.ne/" target="_blank">
-                  <i class="fab fa-facebook-square"></i>
+                  <i className="fab fa-facebook-square"></i>
                 </a>
               </li>
               <li>
@@ -22,12 +22,12 @@ export default class Footer extends Component {
                   href="https://www.instagram.com/jlassi.ezzeddine/"
                   target="_blank"
                 >
-                  <i class="fab fa-instagram-square"></i>
+                  <i className="fab fa-instagram-square"></i>
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Jlassiezzeddine" target="_blank">
-                  <i class="fab fa-github-square"></i>
+                  <i className="fab fa-github-square"></i>
                 </a>
               </li>
             </ul>

@@ -16,11 +16,11 @@ export default class ContactPageBody extends Component {
               <div className="contact--info">
                 <ul>
                   <li>
-                    <i class="fas fa-phone-alt"></i>
+                    <i className="fas fa-phone-alt"></i>
                     <a href="tel:+21626796814">+216 26 79 68 14</a>
                   </li>
                   <li>
-                    <i class="fas fa-envelope"></i>
+                    <i className="fas fa-envelope"></i>
                     <a href="mailto:jlassiezzeddine@gmail.com">
                       jlassiezzeddine@gmail.com
                     </a>
@@ -31,8 +31,8 @@ export default class ContactPageBody extends Component {
             <div className="col-lg-6 form--wrapper">
               <form>
                 <div className="input--group">
-                  <div class="input--field">
-                    <label for="name">Name</label>
+                  <div className="input--field">
+                    <label htmlFor="name">Name</label>
                     <input
                       type="text"
                       id="name"
@@ -40,8 +40,8 @@ export default class ContactPageBody extends Component {
                       placeholder="John Doe"
                     />
                   </div>
-                  <div class="input--field">
-                    <label for="email">Email</label>
+                  <div className="input--field">
+                    <label htmlFor="email">Email</label>
                     <input
                       type="text"
                       id="email"
@@ -50,8 +50,8 @@ export default class ContactPageBody extends Component {
                     />
                   </div>
                 </div>
-                <div class="text--field">
-                  <label for="message">Message</label>
+                <div className="text--field">
+                  <label htmlFor="message">Message</label>
                   <textarea
                     type="text"
                     id="message"
@@ -61,7 +61,7 @@ export default class ContactPageBody extends Component {
                 </div>
 
                 <button>
-                  Submit <i class="fas fa-angle-right"></i>
+                  Submit <i className="fas fa-angle-right"></i>
                 </button>
               </form>
             </div>
