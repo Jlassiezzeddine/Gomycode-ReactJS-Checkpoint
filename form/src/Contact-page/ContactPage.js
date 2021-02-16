@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 
-import ContactPageBody from "./body/ContactPageBody";
+import "./ContactPage.scss";
+
+import ContactPageBody from "./ContactPageBody/ContactPageBody";
 import Footer from "./Footer/Footer";
-import Navigation from "./Navigation/Navigation";
+import NavigationDesktop from "./Navigation/NavigationDesktop/NavigationDesktop";
 
 export default class ContactPage extends Component {
   render() {
     return (
-      <div>
-        <Navigation></Navigation>
+      <div className="contact--page--wrapper">
+        <NavigationDesktop></NavigationDesktop>
         <ContactPageBody></ContactPageBody>
         <Footer></Footer>
       </div>

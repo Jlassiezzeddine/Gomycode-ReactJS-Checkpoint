@@ -1,0 +1,25 @@
+.body--wrapper {
+  height: 80vh;
+  width: 100%;
+  .body--content {
+    margin-top: 20vh;
+    color: #e7e7e7;
+  }
+  .contact--info {
+    margin-top: 10vh;
+    li {
+      margin-top: 0.5rem;
+      i {
+        color: #e7e7e7;
+      }
+      a {
+        color: #e7e7e7;
+        margin-left: 1rem;
+        &:hover ~ li {
+          text-decoration: none;
+          color: rgba(231, 231, 231, 0.5);
+        }
+      }
+    }
+  }
+}
