@@ -8,7 +8,7 @@ export default class ContactPageBody extends Component {
       <div className="body--wrapper">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 body--content--wrapper">
               <div className="body--content">
                 <h1>Let's talk</h1>
                 <p>Ask us anything or just say hi...</p>
@@ -28,7 +28,43 @@ export default class ContactPageBody extends Component {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6">form</div>
+            <div className="col-lg-6 form--wrapper">
+              <form>
+                <div className="input--group">
+                  <div class="input--field">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="John Doe"
+                    />
+                  </div>
+                  <div class="input--field">
+                    <label for="email">Email</label>
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      placeholder="johndoe@gmail.com"
+                    />
+                  </div>
+                </div>
+                <div class="text--field">
+                  <label for="message">Message</label>
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    placeholder="Say what's on your mind..."
+                  ></textarea>
+                </div>
+
+                <button>
+                  Submit <i class="fas fa-angle-right"></i>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
